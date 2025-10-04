@@ -59,13 +59,14 @@ export default function CommentFeed() {
     return messageDate.toLocaleDateString();
   };
 
-  // Format unlock date
+  // Format unlock date in KST
   const getUnlockDate = (timestamp: string): string => {
     const date = new Date(timestamp);
     return date.toLocaleDateString('en-US', {
       month: 'long',
       day: 'numeric',
-      year: 'numeric'
+      year: 'numeric',
+      timeZone: 'Asia/Seoul'
     });
   };
 
