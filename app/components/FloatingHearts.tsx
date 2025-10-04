@@ -13,19 +13,19 @@ interface Heart {
   sway: number;
 }
 
+const pastelColors = [
+  '#FFB3D9', // Pastel pink
+  '#E0BBE4', // Pastel lavender
+  '#FFCCE5', // Soft pink
+  '#D4A5A5', // Dusty rose
+  '#FFABAB', // Peach pink
+  '#C7B8EA', // Light purple
+  '#FFC8DD', // Cotton candy pink
+  '#E4C1F9', // Lavender
+];
+
 export default function FloatingHearts() {
   const [hearts, setHearts] = useState<Heart[]>([]);
-
-  const pastelColors = [
-    '#FFB3D9', // Pastel pink
-    '#E0BBE4', // Pastel lavender
-    '#FFCCE5', // Soft pink
-    '#D4A5A5', // Dusty rose
-    '#FFABAB', // Peach pink
-    '#C7B8EA', // Light purple
-    '#FFC8DD', // Cotton candy pink
-    '#E4C1F9', // Lavender
-  ];
 
   useEffect(() => {
     let heartId = 0;

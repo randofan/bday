@@ -16,7 +16,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-8">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">
-              emily's bday bash
+              emily&apos;s bday bash
             </h1>
             <p className="text-white/70 text-lg">October 5th, 2025</p>
 
@@ -73,7 +73,7 @@ export default function Home() {
 
                 {/* Text */}
                 <text x="100" y="95" textAnchor="middle" fill="url(#neonGradient)" fontSize="20" fontWeight="bold" fontFamily="Arial">
-                  emily's
+                  emily&apos;s
                 </text>
                 <text x="100" y="115" textAnchor="middle" fill="url(#neonGradient)" fontSize="20" fontWeight="bold" fontFamily="Arial">
                   bday bash
